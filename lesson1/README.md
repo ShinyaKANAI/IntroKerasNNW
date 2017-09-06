@@ -23,4 +23,20 @@ Tensorflowは多機能で上級者向けのライブラリであるため、今�
 ※上記の流れは暫定であり、進行度合いによって調整を行うことがあります。
 
 ## 実行環境
-研修室のPCからクラウド上に環境を構築しますので、事前の準備は必要ありません。
+研修室のPCからクラウド上に環境を構築しますので、事前の準備は必要ありません。  
+[環境構築方法](https://github.com/ShinyaKANAI/IntroKerasNNW/wiki/AzureEnvSetting)
+
+## ハンズオン
+以下の2つのファイルの内容をJupyter Notebookから実行します
+* SimpleClassifierModel.ipynb  
+単純全結合モデルの学習  
+* ImageFileClassifier.ipynb  
+学習したモデルによる識別  
+
+### 実行環境
+* python3
+* jupyter
+* numpy
+* matplotlib
+* pillow
+* tensorflow
